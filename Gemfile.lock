@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,6 +77,9 @@ GEM
     rack-test (0.6.1)
       rack (>= 1.0)
     rails (3.2.8)
+=======
+
+>>>>>>> 0d129f90949b78e16832207aef95b7890f86d261
       actionmailer (= 3.2.8)
       actionpack (= 3.2.8)
       activerecord (= 3.2.8)
@@ -128,3 +132,4 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
+
