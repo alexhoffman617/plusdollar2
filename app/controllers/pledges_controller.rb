@@ -1,23 +1,23 @@
-class PledgesController < ApplicationController
-  # GET /pledges
-  # GET /pledges.json
+class NamesController < ApplicationController
+  # GET /names
+  # GET /names.json
   def index
-    @pledges = Pledge.all
+    @names = Name.all
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @pledges }
+      format.json { render json: @names }
     end
   end
 
   # GET /pledges/1
   # GET /pledges/1.json
   def show
-    @pledge = Pledge.find(params[:id])
+    @Name = Name.find(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
-      format.json { render json: @pledge }
+      format.json { render json: @name }
     end
   end
 
