@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  issue_url: MyString
+  string: MyString
+  issue_title: MyString
+  string: MyString
+  amount: MyString
+  decimal: MyString
+
+two:
+  issue_url: MyString
+  string: MyString
+  issue_title: MyString
+  string: MyString
+  amount: MyString
+  decimal: MyString
