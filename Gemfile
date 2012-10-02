@@ -7,13 +7,11 @@ gem 'heroku', '~> 2.31.2'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
+group :development, :test do
 gem 'sqlite3'
 end
 
-group :test do
-  gem 'sqlite3'
-end
+
 
 
 group :production do
