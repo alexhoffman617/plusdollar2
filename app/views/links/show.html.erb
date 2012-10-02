@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @link.description %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @link.link %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @link.date %>
+</p>
+
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
