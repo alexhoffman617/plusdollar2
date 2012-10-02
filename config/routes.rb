@@ -7,10 +7,7 @@ Plusdollar2::Application.routes.draw do
   
   resources :posts
 
-  resources :users
 
-  resources :pledges
-  
   
 
   # The priority is based upon order of creation:

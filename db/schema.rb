@@ -21,15 +21,6 @@ ActiveRecord::Schema.define(:version => 20121002023831) do
     t.datetime "updated_at",  :null => false
   end
 
-  create_table "pledges", :force => true do |t|
-    t.string   "issue_url"
-    t.string   "string"
-    t.string   "issue_title"
-    t.string   "amount"
-    t.string   "decimal"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
 
   create_table "posts", :force => true do |t|
     t.string   "subject"
@@ -40,12 +31,6 @@ ActiveRecord::Schema.define(:version => 20121002023831) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "votes", :force => true do |t|
     t.string   "answer"
