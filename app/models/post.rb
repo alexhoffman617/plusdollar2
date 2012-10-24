@@ -1,3 +1,10 @@
 class Post < ActiveRecord::Base
-  attr_accessible :date, :name, :subject, :text
+  belongs_to :user
+  attr_accessible :date, :text, :title, :user_id, :user
+  
+  validates :amount, presence:true
+  
+  def user_name
+    user.name if user
+  end
 end

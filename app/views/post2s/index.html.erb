@@ -1,0 +1,29 @@
+<h1>Listing post2s</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th>Date</th>
+    <th>User</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @post2s.each do |post2| %>
+  <tr>
+    <td><%= post2.title %></td>
+    <td><%= post2.text %></td>
+    <td><%= post2.date %></td>
+    <td><%= post2.user.name %></td>
+    <td><%= link_to 'Show', post2 %></td>
+    <td><%= link_to 'Edit', edit_post2_path(post2) %></td>
+    <td><%= link_to 'Destroy', post2, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Post2', new_post2_path %>

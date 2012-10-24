@@ -1,11 +1,23 @@
 Plusdollar2::Application.routes.draw do
+  resources :users
+
+  resources :post2s
+
+  resources :posts
+
+ 
+
   resources :links
 
   resources :votes
   
-  root :to => 'posts#index'
+   resources :users
   
-  resources :posts
+  
+  resources :posts, :users
+  
+  root :to => 'users#index'
+
 
 
   

@@ -1,0 +1,4 @@
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20121023175350_create_users.rb
+[1m[31m    conflict[0m    app/models/user.rb
+  Overwrite /Users/alexhoffman/Documents/Aptana Studio 3 Workspace/sportswebsite/plusdollar2/app/models/user.rb? (enter "h" for help) [Ynaqdh] 
